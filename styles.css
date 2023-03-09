@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#center {
+    display: flex;
+}
+
+#all {
+    width: 66%;
+}
+
+#title,#banner {
+    width: 100%;
+}
+
+#center > div {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+
+#center #main {
+    width: 100%;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+input, select, textarea
+{
+  background-color: #141414;
+  color: #eeeeee;
+}
+
+#content {
+    overflow-wrap: break-word;
+}
